@@ -60,10 +60,11 @@ An additional regional virtual network was deployed to extend the architecture a
 - Log Analytics workspace for monitoring
 
 
-### Architecture Diagram
-[View Image](./secure-hybrid-azure-environment-diagram-v1.png)
+## Architecture Diagram
 
-![Architecture Diagram](./secure-hybrid-azure-environment-diagram-v1.png)
+[View Image](./azure-secure-enterprise-project/architecture/secure-hybrid-azure-environment-diagram-v1.png)
+
+![Architecture Diagram](./azure-secure-enterprise-project/architecture/secure-hybrid-azure-environment-diagram-v1.png)
 
 ## Implemented Azure Services
 
@@ -81,47 +82,48 @@ An additional regional virtual network was deployed to extend the architecture a
 - Azure Log Analytics Workspace
 - Microsoft Defender for Cloud
 
+
 ## Screenshots
 
 ### All Resources Overview
-[View Image](./azure-all-resources-overview.JPG)
+[View Image](./azure-secure-enterprise-project/screenshots/azure-all-resources-overview.JPG)
 
-![All Resources Overview](./azure-all-resources-overview.JPG)
+![All Resources Overview](./azure-secure-enterprise-project/screenshots/azure-all-resources-overview.JPG)
 
 ### Virtual Machines Overview
-[View Image](./azure-virtual-machines-overview.JPG)
+[View Image](./azure-secure-enterprise-project/screenshots/azure-virtual-machines-overview.JPG)
 
-![Virtual Machines Overview](./azure-virtual-machines-overview.JPG)
+![Virtual Machines Overview](./azure-secure-enterprise-project/screenshots/azure-virtual-machines-overview.JPG)
 
 ### Virtual Networks Overview
-[View Image](./azure-virtual-networks-overview.JPG)
+[View Image](./azure-secure-enterprise-project/screenshots/azure-virtual-networks-overview.JPG)
 
-![Virtual Networks Overview](./azure-virtual-networks-overview.JPG)
+![Virtual Networks Overview](./azure-secure-enterprise-project/screenshots/azure-virtual-networks-overview.JPG)
 
 ### Azure Bastion Connection to Admin VM
-[View Image](./azure-bastion-admin-vm-connection.JPG)
+[View Image](./azure-secure-enterprise-project/screenshots/azure-bastion-admin-vm-connection.JPG)
 
-![Azure Bastion Admin VM Connection](./azure-bastion-admin-vm-connection.JPG)
+![Azure Bastion Admin VM Connection](./azure-secure-enterprise-project/screenshots/azure-bastion-admin-vm-connection.JPG)
 
 ### Azure Bastion Connection to Web VM
-[View Image](./azure-bastion-web-vm-connection.JPG)
+[View Image](./azure-secure-enterprise-project/screenshots/azure-bastion-web-vm-connection.JPG)
 
-![Azure Bastion Web VM Connection](./azure-bastion-web-vm-connection.JPG)
+![Azure Bastion Web VM Connection](./azure-secure-enterprise-project/screenshots/azure-bastion-web-vm-connection.JPG)
 
 ### Route Table via Azure Firewall
-[View Image](./azure-firewall-route-table-central-india.JPG)
+[View Image](./azure-secure-enterprise-project/screenshots/azure-firewall-route-table-central-india.JPG)
 
-![Route Table via Azure Firewall](./azure-firewall-route-table-central-india.JPG)
+![Route Table via Azure Firewall](./azure-secure-enterprise-project/screenshots/azure-firewall-route-table-central-india.JPG)
 
 ### Azure Firewall Application Rule Collection
-[View Image](./azure-firewall-application-rule-collection.JPG)
+[View Image](./azure-secure-enterprise-project/screenshots/azure-firewall-application-rule-collection.JPG)
 
-![Azure Firewall Application Rule Collection](./azure-firewall-application-rule-collection.JPG)
+![Azure Firewall Application Rule Collection](./azure-secure-enterprise-project/screenshots/azure-firewall-application-rule-collection.JPG)
 
 ### Application Gateway Backend Health
-[View Image](./application-gateway-backend-health.JPG)
+[View Image](./azure-secure-enterprise-project/screenshots/application-gateway-backend-health.JPG)
 
-![Application Gateway Backend Health](./application-gateway-backend-health.JPG)
+![Application Gateway Backend Health](./azure-secure-enterprise-project/screenshots/application-gateway-backend-health.JPG)
 
 ## Project Structure
 
