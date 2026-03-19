@@ -247,4 +247,3 @@ This project strengthened practical skills in the following areas:
 
 **Mina Gaballa**  
 Cloud and System Administration Engineer  
-Microsoft Azure | Networking | Security | Infrastructure
