@@ -59,6 +59,7 @@ An additional regional virtual network was deployed to extend the architecture a
 - Key Vault private access model
 - Log Analytics workspace for monitoring
 
+
 ## Architecture Diagram
 
 [View Image](./azure-secure-enterprise-architecture-diagram.png)
@@ -273,29 +274,6 @@ This project strengthened practical skills in the following areas:
 - Understanding Azure private DNS behavior for private services
 - Organizing Azure deployments in a professional GitHub portfolio format
 - Documenting real deployment evidence for technical review and recruiter visibility
-
-## Recommended File Names
-
-- `azure-secure-enterprise-architecture-diagram.png`
-- `azure-all-resources-overview.jpg`
-- `azure-virtual-machines-overview.jpg`
-- `azure-virtual-networks-overview.jpg`
-- `azure-bastion-admin-vm-connection.jpg`
-- `azure-bastion-web-vm-connection.jpg`
-- `azure-firewall-route-table-central-india.jpg`
-- `azure-firewall-application-rule-collection.jpg`
-- `application-gateway-backend-health.jpg`
-- `01-create-resource-groups.ps1`
-- `02-create-virtual-networks.ps1`
-- `03-add-subnets.ps1`
-- `04-create-global-vnet-peering.ps1`
-- `05-create-vm-admin-01.ps1`
-- `06-create-vm-web-01.ps1`
-- `07-create-vm-web-02.ps1`
-- `08-install-iis-on-web-servers.ps1`
-- `09-create-route-table-via-firewall.ps1`
-- `00-project-variables.json`
-- `10-portal-created-resources.json`
 
 ## Author
 
