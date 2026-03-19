@@ -1,0 +1,78 @@
+{
+  "projectName": "Azure Secure Enterprise Project",
+  "author": "Mina Gaballa",
+  "subscriptionName": "Azure subscription 1",
+  "subscriptionId": "d6680869-f124-4533-9a52-b6b23e560f3c",
+  "regions": {
+    "hub": "norwayeast",
+    "primaryWorkload": "centralindia",
+    "secondaryWorkload": "canadacentral"
+  },
+  "resourceGroups": {
+    "hub": "rg-asep-hub-norwayeast",
+    "management": "rg-asep-management-norwayeast",
+    "productionPrimary": "rg-asep-production-centralindia",
+    "productionSecondary": "rg-asep-production-canadacentral",
+    "monitoring": "rg-asep-monitoring-norwayeast"
+  },
+  "virtualNetworks": {
+    "hub": {
+      "name": "vnet-hub-noe-prod",
+      "addressSpace": "10.0.0.0/16",
+      "subnets": {
+        "AzureFirewallSubnet": "10.0.1.0/24",
+        "AzureBastionSubnet": "10.0.2.0/24",
+        "snet-management": "10.0.3.0/24"
+      }
+    },
+    "primaryWorkload": {
+      "name": "vnet-workload-ind-prod",
+      "addressSpace": "10.1.0.0/16",
+      "subnets": {
+        "snet-web": "10.1.1.0/24",
+        "snet-app": "10.1.2.0/24",
+        "snet-private-endpoints": "10.1.3.0/24",
+        "snet-appgw": "10.1.4.0/24"
+      }
+    },
+    "secondaryWorkload": {
+      "name": "vnet-workload-can-prod",
+      "addressSpace": "10.2.0.0/16",
+      "subnets": {
+        "snet-web": "10.2.1.0/24",
+        "snet-app": "10.2.2.0/24",
+        "snet-private-endpoints": "10.2.3.0/24"
+      }
+    }
+  },
+  "virtualMachines": {
+    "admin": {
+      "name": "vm-admin-01",
+      "size": "Standard_B2s_v2",
+      "image": "Win2022AzureEdition"
+    },
+    "web01": {
+      "name": "vm-web-01",
+      "size": "Standard_B2s_v2",
+      "image": "Win2022AzureEdition"
+    },
+    "web02": {
+      "name": "vm-web-02",
+      "size": "Standard_B2s_v2",
+      "image": "Win2022AzureEdition"
+    }
+  },
+  "routing": {
+    "routeTable": "rt-web-via-firewall",
+    "defaultRoute": "0.0.0.0/0",
+    "nextHopType": "VirtualAppliance",
+    "firewallPrivateIp": "10.0.1.4"
+  },
+  "coreResources": {
+    "applicationGateway": "agw-prod-01",
+    "bastion": "bas-hub-01",
+    "firewall": "afw-hub-01",
+    "keyVault": "kv-asep-prod",
+    "logAnalytics": "law-asep-prod"
+  }
+}
