@@ -1,6 +1,7 @@
 # Azure Secure Enterprise Project
 
-Secure Azure infrastructure project demonstrating hub-and-spoke networking, Application Gateway, Azure Firewall, Bastion, private access, monitoring, and workload protection across multiple regions.
+A hands-on Azure infrastructure project demonstrating secure enterprise design using hub-and-spoke networking, Azure Bastion, Azure Firewall, Application Gateway with WAF, private access, and centralized monitoring across multiple regions.
+
 
 ## Overview
 
@@ -17,12 +18,6 @@ The solution was built as a hands-on Azure lab to simulate a production-style en
 
 The environment uses a **hub-and-spoke architecture** across multiple Azure regions, with secure management access, web workload protection, outbound traffic control, and private connectivity to platform services.
 
-## Repository Information
-
-**Suggested Repository Name:** `azure-secure-enterprise-project`
-
-**Suggested Repository Description:**  
-Secure Azure infrastructure project demonstrating hub-and-spoke networking, Application Gateway, Azure Firewall, Bastion, private access, monitoring, and workload protection across multiple regions.
 
 ## Architecture
 
@@ -62,9 +57,9 @@ An additional regional virtual network was deployed to extend the architecture a
 
 ## Architecture Diagram
 
-[View Image](./azure-secure-enterprise-project/architecture/secure-hybrid-azure-environment-diagram-v1.png)
+[View Image](./architecture/secure-hybrid-azure-environment-diagram-v1.png)
 
-![Architecture Diagram](./azure-secure-enterprise-project/architecture/secure-hybrid-azure-environment-diagram-v1.png)
+![Architecture Diagram](./architecture/secure-hybrid-azure-environment-diagram-v1.png)
 
 ## Implemented Azure Services
 
@@ -86,70 +81,45 @@ An additional regional virtual network was deployed to extend the architecture a
 ## Screenshots
 
 ### All Resources Overview
-[View Image](./azure-secure-enterprise-project/screenshots/azure-all-resources-overview.JPG)
+[View Image](./screenshots/azure-all-resources-overview.JPG)
 
-![All Resources Overview](./azure-secure-enterprise-project/screenshots/azure-all-resources-overview.JPG)
+![All Resources Overview](./screenshots/azure-all-resources-overview.JPG)
 
 ### Virtual Machines Overview
-[View Image](./azure-secure-enterprise-project/screenshots/azure-virtual-machines-overview.JPG)
+[View Image](./screenshots/azure-virtual-machines-overview.JPG)
 
-![Virtual Machines Overview](./azure-secure-enterprise-project/screenshots/azure-virtual-machines-overview.JPG)
+![Virtual Machines Overview](./screenshots/azure-virtual-machines-overview.JPG)
 
 ### Virtual Networks Overview
-[View Image](./azure-secure-enterprise-project/screenshots/azure-virtual-networks-overview.JPG)
+[View Image](./screenshots/azure-virtual-networks-overview.JPG)
 
-![Virtual Networks Overview](./azure-secure-enterprise-project/screenshots/azure-virtual-networks-overview.JPG)
+![Virtual Networks Overview](./screenshots/azure-virtual-networks-overview.JPG)
 
 ### Azure Bastion Connection to Admin VM
-[View Image](./azure-secure-enterprise-project/screenshots/azure-bastion-admin-vm-connection.JPG)
+[View Image](./screenshots/azure-bastion-admin-vm-connection.JPG)
 
-![Azure Bastion Admin VM Connection](./azure-secure-enterprise-project/screenshots/azure-bastion-admin-vm-connection.JPG)
+![Azure Bastion Admin VM Connection](./screenshots/azure-bastion-admin-vm-connection.JPG)
 
 ### Azure Bastion Connection to Web VM
-[View Image](./azure-secure-enterprise-project/screenshots/azure-bastion-web-vm-connection.JPG)
+[View Image](./screenshots/azure-bastion-web-vm-connection.JPG)
 
-![Azure Bastion Web VM Connection](./azure-secure-enterprise-project/screenshots/azure-bastion-web-vm-connection.JPG)
+![Azure Bastion Web VM Connection](./screenshots/azure-bastion-web-vm-connection.JPG)
 
 ### Route Table via Azure Firewall
-[View Image](./azure-secure-enterprise-project/screenshots/azure-firewall-route-table-central-india.JPG)
+[View Image](./screenshots/azure-firewall-route-table-central-india.JPG)
 
-![Route Table via Azure Firewall](./azure-secure-enterprise-project/screenshots/azure-firewall-route-table-central-india.JPG)
+![Route Table via Azure Firewall](./screenshots/azure-firewall-route-table-central-india.JPG)
 
 ### Azure Firewall Application Rule Collection
-[View Image](./azure-secure-enterprise-project/screenshots/azure-firewall-application-rule-collection.JPG)
+[View Image](./screenshots/azure-firewall-application-rule-collection.JPG)
 
-![Azure Firewall Application Rule Collection](./azure-secure-enterprise-project/screenshots/azure-firewall-application-rule-collection.JPG)
+![Azure Firewall Application Rule Collection](./screenshots/azure-firewall-application-rule-collection.JPG)
 
 ### Application Gateway Backend Health
-[View Image](./azure-secure-enterprise-project/screenshots/application-gateway-backend-health.JPG)
+[View Image](./screenshots/application-gateway-backend-health.JPG)
 
-![Application Gateway Backend Health](./azure-secure-enterprise-project/screenshots/application-gateway-backend-health.JPG)
+![Application Gateway Backend Health](./screenshots/application-gateway-backend-health.JPG)
 
-## Project Structure
-
-```text
-README.md
-azure-secure-enterprise-architecture-diagram.png
-azure-all-resources-overview.jpg
-azure-virtual-machines-overview.jpg
-azure-virtual-networks-overview.jpg
-azure-bastion-admin-vm-connection.jpg
-azure-bastion-web-vm-connection.jpg
-azure-firewall-route-table-central-india.jpg
-azure-firewall-application-rule-collection.jpg
-application-gateway-backend-health.jpg
-01-create-resource-groups.ps1
-02-create-virtual-networks.ps1
-03-add-subnets.ps1
-04-create-global-vnet-peering.ps1
-05-create-vm-admin-01.ps1
-06-create-vm-web-01.ps1
-07-create-vm-web-02.ps1
-08-install-iis-on-web-servers.ps1
-09-create-route-table-via-firewall.ps1
-00-project-variables.json
-10-portal-created-resources.json
-```
 
 ## Deployment Steps
 
@@ -271,9 +241,10 @@ This project strengthened practical skills in the following areas:
 - Organizing Azure deployments in a professional GitHub portfolio format
 - Documenting real deployment evidence for technical review and recruiter visibility
 
+
+
 ## Author
 
-**Mina Gaballa**
-
+**Mina Gaballa**  
 Cloud and System Administration Engineer  
-Azure | Networking | Security | Infrastructure
+Microsoft Azure | Networking | Security | Infrastructure
